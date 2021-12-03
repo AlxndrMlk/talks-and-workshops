@@ -1,2 +1,3 @@
-# Causality
-Notes, exercises and other materials related to causal inference, causal discovery and causal ML.
+# Causal Inference in Python: An Introduction
+
+Causality was an enfant terrible of the big data and statistical learning revolution of the early 2010s. Many people believed (myself included) that having large enough datasets and efficient learning algorithms is sufficient and we do not need the concept of causality at all. Today, causal inference, modeling and discovery is being used more and more broadly across areas – from medical research and neuroscience to marketing and fraud detection. This talk briefly introduces main causal concepts and two Python libraries – DoWhy and EconML – for performing causal inference.
