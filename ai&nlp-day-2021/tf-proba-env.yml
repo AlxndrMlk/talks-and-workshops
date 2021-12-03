@@ -1,0 +1,21 @@
+name: tf-proba-env
+channels:
+- defaults
+- pytorch
+- conda-forge
+dependencies:
+- python=3.8
+- nltk
+- pandas
+- xlrd
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
+- nb_conda
+- ipywidgets
+- hyperopt
+- pip
+- pip:
+  - tensorflow
+  - tensorflow-probability==0.13
