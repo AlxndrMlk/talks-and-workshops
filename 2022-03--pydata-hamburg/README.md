@@ -1,3 +1,8 @@
-# Causal Inference in Python: An Introduction
+# Causal discovery in Python
 
-Causality was an enfant terrible of the big data and statistical learning revolution of the early 2010s. Many people believed (myself included) that having large enough datasets and efficient learning algorithms is sufficient and we do not need the concept of causality at all. Today, causal inference, modeling and discovery is being used more and more broadly across areas – from medical research and neuroscience to marketing and fraud detection. This talk briefly introduces main causal concepts and two Python libraries – DoWhy and EconML – for performing causal inference.
+**GHOST Day 2022.03.23**
+
+------------------------
+
+### Abstract
+Over the last decade, causal inference gained a lot of traction in academia and in the industry. Causal models can be immensely helpful in various areas – from marketing to medicine and from finance to cybersecurity. To make these models work, we need not only data as in traditional machine learning, but also a causal structure. Traditional way to obtain the latter is through well-designed experiments. Unfortunately, experiments can be tricky – difficult to design, expensive or unethical. Causal discovery (also known as structure learning) is an umbrella term that describes several families of methods aiming at discovering causal structure from observational (non-experimental) data. During the talk, we will review the basics of causal inference and introduce the concept of causal discovery. Next, we will discuss differences between various approaches to causal discovery. Finally, we will see a series of practical examples of causal discovery using Python.
