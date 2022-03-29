@@ -2,7 +2,7 @@
 
 **PyData Hamburg 2022.03.29**
 
-Papers for participants can be found here: 
+Papers for participants can be found [here](https://github.com/AlxndrMlk/talks-and-workshops/blob/main/2022-03--pydata-hamburg/papers.md)
 
 ------------------------
 
