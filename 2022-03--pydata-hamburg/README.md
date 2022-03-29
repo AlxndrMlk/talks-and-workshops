@@ -1,6 +1,6 @@
 # Causal discovery in Python
 
-**GHOST Day 2022.03.23**
+**PyData Hamburg 2022.03.29**
 
 ------------------------
 
