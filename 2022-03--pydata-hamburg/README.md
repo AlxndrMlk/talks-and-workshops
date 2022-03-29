@@ -2,6 +2,8 @@
 
 **PyData Hamburg 2022.03.29**
 
+Papers for participants can be found here: 
+
 ------------------------
 
 ### Abstract
