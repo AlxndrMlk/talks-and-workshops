@@ -1,0 +1,19 @@
+name: tf-spektral-minimal
+channels:
+- defaults
+- conda-forge
+dependencies:
+- nb_conda
+- matplotlib
+- pandas
+- xlrd
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
+- graphviz
+- pydot
+- pip
+- pip:
+  - tensorflow==2.8.0
+  - spektral==1.0.6
