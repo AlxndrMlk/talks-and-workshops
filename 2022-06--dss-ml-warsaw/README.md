@@ -1,8 +1,8 @@
-# Causal discovery in Python
+# Practical Causal Discovery in Python
 
-**PyData Hamburg 2022.03.29**
+**Data Science Summit Warsaw 2022.06.22**
 
-💡 Papers for participants can be found [here](https://github.com/AlxndrMlk/talks-and-workshops/blob/main/2022-03--pydata-hamburg/papers.md)
+💡 Papers for participants can be found in `papers.MD`.
 
 ------------------------
 
