@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/aleks/OneDrive/Dokumenty/Conferences/talks-and-workshops/2022-12--pydata-tel-aviv/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Lehmer Global Pooling

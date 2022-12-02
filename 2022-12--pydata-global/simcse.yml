@@ -1,0 +1,21 @@
+name: simcse
+channels:
+- defaults
+- pytorch
+- conda-forge
+dependencies:
+- python=3.8
+- cudatoolkit=11.3 #-c pytorch
+- pytorch 
+- nltk
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
+- nb_conda
+- ipywidgets
+- pip
+- pip:
+  - transformers==4.21.3 
+  - simcse
