@@ -43,4 +43,14 @@ Objectives: Learn how to triangulate results from different methods, including h
 
 ## Code
 
-To be added
+| Notebook | Open |
+|---|---|
+| 01 - Let's design an A/B test | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlxndrMlk/talks-and-workshops/blob/main/2026-10--odsc-ai/01%20-%20AB%20test.ipynb) |
+| 02 - Let's design a clustered A/B test | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlxndrMlk/talks-and-workshops/blob/main/2026-10--odsc-ai/02%20-%20Clustered%20AB%20test.ipynb) |
+| 03 - Let's estimate the uplift with DML | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlxndrMlk/talks-and-workshops/blob/main/2026-10--odsc-ai/03%20-%20Double%20machine%20learning.ipynb) |
+| 04 - Let's build a synthetic control | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlxndrMlk/talks-and-workshops/blob/main/2026-10--odsc-ai/04%20-%20Synthetic%20control.ipynb) |
+| 05 - Let's test it! (triangulation) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlxndrMlk/talks-and-workshops/blob/main/2026-10--odsc-ai/05%20-%20Triangulation.ipynb) |
+
+All notebooks use one synthetic world, built by `uplift_data.py` (seed 23): 8 regions, 240 sales reps, about 38,000 stores, weekly sales. Because the data is synthetic, each notebook ends by checking its estimate against the true effect. `test_uplift_data.py` tests the generator.
+
+To run locally, see [ENV.md](ENV.md) (uv or conda).

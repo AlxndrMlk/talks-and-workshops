@@ -1,0 +1,22 @@
+name: odsc-ai-2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.2,<2.4
+  - pandas>=2.2
+  - scipy>=1.15,<=1.15.3
+  - statsmodels>=0.14.4
+  - scikit-learn>=1.6,<1.8
+  - matplotlib>=3.9
+  - networkx>=3.3
+  - jupyterlab>=4.2
+  - ipykernel>=6.29
+  - nbconvert>=7.16
+  - pytest>=8
+  - pip
+  - pip:
+      - dowhy==0.14
+      - econml==0.17.0
+      - cluster-experiments==0.31.0
+      - mlsynth==1.0.0

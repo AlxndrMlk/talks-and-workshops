@@ -1,0 +1,27 @@
+[project]
+name = "odsc-ai-2026"
+version = "0.1.0"
+description = "ODSC AI West 2026 workshop: Business Loves Uplift (notebooks + data generator)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.2,<2.4",
+    "pandas>=2.2",
+    "scipy>=1.15,<=1.15.3",
+    "statsmodels>=0.14.4",
+    "scikit-learn>=1.6,<1.8",
+    "matplotlib>=3.9",
+    "networkx>=3.3",
+    "dowhy==0.14",
+    "econml==0.17.0",
+    "cluster-experiments==0.31.0",
+    "mlsynth==1.0.0",
+    "jupyterlab>=4.2",
+    "ipykernel>=6.29",
+    "nbconvert>=7.16",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
