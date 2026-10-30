@@ -41,6 +41,10 @@ Objectives: Learn how to design and analyze a synthetic control quasi-experiment
 5 - Triangulation
 Objectives: Learn how to triangulate results from different methods, including how to interpret result mismatch between different estimands
 
+## Slides
+
+[2026-10-29--deck-odsc-ai-west.pdf](2026-10-29--deck-odsc-ai-west.pdf)
+
 ## Code
 
 | Notebook | Open |
