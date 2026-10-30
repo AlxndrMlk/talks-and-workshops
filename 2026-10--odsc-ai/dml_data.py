@@ -17,6 +17,9 @@ Columns:
     rec_skus        recommended products acted on per store per month
     bonus           1 if the rep has the recommender and reached the sales target
     relationship_strength   hidden confounder (SD units), reps_full only
+
+Separate table for the placebo test in notebook 05:
+    sales_placebo   mean weekly sales per store before the recommender went live, k$
 """
 from dataclasses import dataclass
 
@@ -91,6 +94,11 @@ def make_datasets(p: Params = Params()):
         "bonus": bonus,
         "relationship_strength": u.round(3),
     })
+    # before the rollout: the same reps, nobody has the recommender yet
+    sales_placebo = (p.base_sales * (store_size / 400) ** 0.5 * (footfall / 1500) ** 0.4
+                     * (1 + p.y_exp * z + p.y_u * u) * (1 + rng.normal(0, p.noise_sd, n)))
+    placebo = full[["rep_id", "recommender", "experience", "store_size", "footfall"]].assign(
+        sales_placebo=sales_placebo.round(3))
     tau = sales0 * pct                 # expected effect per rep, k$
     slope, intercept = np.polyfit(experience, tau, 1)
     truth = {
@@ -102,6 +110,7 @@ def make_datasets(p: Params = Params()):
     return {
         "reps_observed": full.drop(columns="relationship_strength"),
         "reps_full": full,
+        "placebo_observed": placebo,
         "rep_tau": pd.DataFrame({"experience": experience, "true_effect_abs": tau}),
         "truth": truth,
     }
